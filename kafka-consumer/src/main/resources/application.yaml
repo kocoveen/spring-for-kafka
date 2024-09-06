@@ -1,0 +1,22 @@
+server:
+  port: 8082
+
+spring:
+  application:
+    name: kafka-consumer
+
+#  kafka:
+#    bootstrap-servers:
+#      - localhost:10000
+#      - localhost:10001
+#      - localhost:10002
+#    consumer:
+#      group-id: my-group
+#      auto-offset-reset: earliest
+#      key-deserializer: org.apache.kafka.common.serialization.StringDeserializer
+#      value-deserializer: org.springframework.kafka.support.serializer.JsonDeserializer
+#      properties:
+#        spring.json.trusted.packages: '*' # ?? ???
+#        spring.json.value.default.type: 'org.example.kafkaconsumer.hello.HelloDto'
+#    listener:
+#      missing-topics-fatal: false

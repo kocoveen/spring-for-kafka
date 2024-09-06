@@ -1,0 +1,16 @@
+###
+POST http://localhost:8081/hello/to-string
+Content-Type: application/json
+
+{
+  "name": "hello",
+  "age": 25,
+  "now": "2024-01-31",
+  "address": {
+    "street": "테헤란로",
+    "city": "서울특별시 강남구",
+    "zipCode": "06220"
+  }
+}
+
+###
